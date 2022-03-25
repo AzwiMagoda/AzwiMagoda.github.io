@@ -591,11 +591,12 @@ section {
 			justify-content: center;
 			margin-top: 2rem;
 
-			a {
+			a,
+			input {
 				display: flex;
 				align-items: center;
 				color: var(--color-white);
-				background-color: var(--color-grey-5);
+				//background-color: var(--color-grey-5);
 				cursor: pointer;
 				justify-content: center;
 				width: 50px;

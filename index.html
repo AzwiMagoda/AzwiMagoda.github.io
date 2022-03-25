@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="referrer" content="origin" />
 		<title>Azwi Magoda</title>
 		<link rel="stylesheet" href="styles/style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -337,16 +338,17 @@
 
 						<div class="right-contact">
 							<form
-								action="mailto:carol.magoda@gmail.com"
+								action="https://formspree.io/f/xnqwbqyk"
 								method="post"
 								enctype="text/plain"
 								class="contact-form"
+								name="form"
 							>
 								<div class="input-control i-c-2">
 									<input type="text" name="name" required placeholder="Name" />
 									<input
 										type="email"
-										name="mail"
+										name="email"
 										required
 										placeholder="Email"
 									/>
@@ -371,16 +373,12 @@
 									></textarea>
 								</div>
 								<div class="submit-btn">
-									<a
-										href="mailto:carol.magoda@gmail.com"
-										class="main-btn"
-										type="submit"
-									>
+									<button name="submit" class="main-btn" type="submit">
 										<span class="btn-text">Submit</span>
 										<span class="btn-icon">
 											<i class="fab fa-chevron-double-right"></i>
 										</span>
-									</a>
+									</button>
 								</div>
 							</form>
 						</div>

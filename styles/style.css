@@ -740,7 +740,8 @@ section {
   margin-top: 2rem;
 }
 
-.contact-content-con .left-contact .contact-icon a {
+.contact-content-con .left-contact .contact-icon a,
+.contact-content-con .left-contact .contact-icon input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -748,7 +749,6 @@ section {
       -ms-flex-align: center;
           align-items: center;
   color: var(--color-white);
-  background-color: var(--color-grey-5);
   cursor: pointer;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -761,15 +761,18 @@ section {
   transition: var(--transition-1);
 }
 
-.contact-content-con .left-contact .contact-icon a:hover {
+.contact-content-con .left-contact .contact-icon a:hover,
+.contact-content-con .left-contact .contact-icon input:hover {
   background-color: var(--color-secondary);
 }
 
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-content-con .left-contact .contact-icon a:hover i,
+.contact-content-con .left-contact .contact-icon input:hover i {
   color: var(--color-primary);
 }
 
-.contact-content-con .left-contact .contact-icon a i {
+.contact-content-con .left-contact .contact-icon a i,
+.contact-content-con .left-contact .contact-icon input i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
