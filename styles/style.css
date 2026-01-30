@@ -927,16 +927,4 @@ section {
   font-size: 6.3rem;
 }
 
-.image {
-    background: white;
-    border-radius: 50%;
-    padding: 8px;
-}
-
-.image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 /*# sourceMappingURL=style.css.map */
