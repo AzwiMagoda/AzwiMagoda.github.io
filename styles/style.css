@@ -927,4 +927,31 @@ section {
   font-size: 6.3rem;
 }
 
+/* Make sure the image sits above any dark shapes/overlays */
+.left-header .image {
+  position: relative !important;
+  z-index: 10 !important;
+
+  /* This is the actual “background” you'll see through the transparent PNG */
+  background: #fff !important;          /* change to match your theme */
+  padding: 12px !important;
+  border-radius: 18px !important;
+  display: inline-block !important;
+  overflow: hidden !important;
+}
+
+/* Ensure the IMG itself doesn't add weird rendering */
+.left-header .image img {
+  display: block !important;
+  width: 100%;
+  height: auto;
+  background: transparent !important;
+}
+
+/* If you have a shape overlay, keep it behind */
+.left-header .h-shape {
+  position: absolute;    /* if not already */
+  z-index: 1 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
